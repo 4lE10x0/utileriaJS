@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In de prueba</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Iniciar Sesión</h2>
+        <form>
+            <div class="form-group">
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuario" name="usuario" placeholder="Ingresa tu usuario"
+                onblur="if(validarCorreo(this.value)){document.getElementById('correo-label').style.display = 'none'}else{document.getElementById('correo-label').style.display = 'inline'}">
+                <span class="emergent-label" id="correo-label">correo no valido!</span>
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" placeholder="Ingresa una contraseña" title="Debe tener al menos una mayuscula, una minuscula, un numero, un caracter especial y una longitud minima de 8 caracteres"
+                onblur="if(validarPassword(this.value)){document.getElementById('password-label').style.display = 'none'}else{document.getElementById('password-label').style.display = 'inline'}">
+                <span class="emergent-label" id="password-label">contraseña no valida!</span>
+            </div>
+            <button type="button" class="btn">Entrar</button>
+        </form>
+        <a href="index.html" class="link">Regresar</a>
+    </div>
+</body>
+</html>
