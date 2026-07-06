@@ -185,7 +185,7 @@ const validarDate \= () \=\> {
 
 > SweetAlert mostrando resultado del input date:
 >
-> ![SweetAlert resultado succes del input date]([https://i.postimg.cc/2yZdg67y/Captura-de-pantalla-2026-07-05-162841.png](https://i.postimg.cc/8kRSgbXT/Captura-de-pantalla-2026-07-05-184934.png))
+> ![SweetAlert resultado succes del input date](https://i.postimg.cc/8kRSgbXT/Captura-de-pantalla-2026-07-05-184934.png)
 
 >Log In con sus errorer:
 >
